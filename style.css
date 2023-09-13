@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main h1 {
+    text-align: center;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+form select {
+    display: flex;
+    flex-direction: row;
+    width: 180px;
+    text-align: center;
+    margin: 25px;
+    padding: 5px;
+}
+
+.submit-btn {
+    position: absolute;
+    bottom: 50%;
+    left: 650px;
+}
