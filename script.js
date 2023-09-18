@@ -20,7 +20,7 @@ for(let i = 1; i <= 31; i++ ) { // crée une boucle permettant de
     console.log(option);
 }
 
-for(let i = 0; i <= month.length; i++) {
+for(let i = 0; i <= month.length -1; i++) {             //soustraction du dernier élément du tableau pour que 'undifined' n'apparaisse plus dans la liste
 
     const option = document.createElement('option'); 
 
